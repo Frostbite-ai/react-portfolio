@@ -4,6 +4,7 @@ import Portfolio from "./components/Portfolio";
 import Timeline from "./components/timeline";
 import Footer from "./components/footer";
 import Contact from "./components/Contact";
+// import PortfolioItems from "./components/PortfolioItems";
 
 function App() {
   return (
@@ -11,8 +12,8 @@ function App() {
       <Intro />
       <Portfolio />
       <Timeline />
-      <Footer />
       <Contact />
+      <Footer />
     </div>
   );
 }
